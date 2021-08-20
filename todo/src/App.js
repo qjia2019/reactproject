@@ -19,7 +19,7 @@ export default class App extends Component {
   };
   createNewTodo = () => {
     if (
-      !this.state.todoitems.find(
+      !this.state.todoItems.find(
         (item) => item.action === this.state.newItemText
       )
     ) {
